@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.scrollable-list {
+  height: 395px; 
+  overflow-y: auto;
+  padding: 20px; 
+  border: 1px solid #ddd;
+}
+
+.list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.loading-indicator {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-top-btn:hover {
+  background-color: #3e8e41;
+}
